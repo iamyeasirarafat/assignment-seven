@@ -1,0 +1,763 @@
+@font-face {
+  font-family: 'Impact';
+  src: url('fonts/impact.woff') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+p{
+	font-size: 16px;
+	font-weight: 400;
+}
+@media (min-width: 992px) {
+    #mainNav {
+        padding: 0px 0 30px !important;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+        border: none;
+        background-color: transparent;
+    }
+    #mainNav .navbar-brand {
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        margin-top: 20px;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+        font-family: Open Sans;
+        font-weight: 600;
+        transition: all 0.3s ease 0s;
+        padding: 45px 19px 25px 19px;    }
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+        color: #2870db;
+    }
+    #mainNav.navbar-shrink {
+        background-color: #323330;
+        padding: 0px 0 0px !important;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        margin-top: -3px;
+        /* padding: 0px 0; */
+    }
+}
+
+.navbar-nav li {
+    position: relative;
+}
+.navbar-nav li a:hover {
+    font-weight: 700;
+    background: #2caacb4a;
+}
+.nav-item a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  bottom: 0;
+  left: 0;
+  background: #40afcc;
+  opacity: 1;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: .25s linear;
+}
+.nav-item a:hover:before,
+.nav-item a:focus:before{
+  visibility: visible;
+  transform: scaleX(1);
+}
+.navbar-nav a {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    transition: .4s ease;
+}
+.nav-item .active{
+      background: #40afcc4a;
+}
+.nav-item .active::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  bottom: 0;
+  left: 0;
+  background: #40afcc;
+}
+/*---------------------
+	End Nav Style
+----------------------*/
+.carousel-custom-caption {
+    left: 18%;
+    z-index: 10;
+    text-align: start;
+    top: 0;
+    bottom: 0;
+    right: 18%;
+}
+.carousel-custom-caption h1 {
+    font-size: 65px;
+    font-weight: 400;
+    color: #fff;
+}
+.carousel-custom-caption h1 span {
+    color: #40afcc;
+    font-weight: 700;
+}
+.carousel-custom-caption p {
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 570px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.slider-btn1, .slider-btn2 {
+    color: #fff;
+    border: 1px solid;
+    border-radius: 0 0 0 20px;
+    padding: 15px 32px;
+    font-size: 18px;
+    /*! font-weight: 300; */
+    position: relative;
+    transition: all .3s ease;
+    overflow: hidden;
+}
+.slider-btn2 {
+    border-radius: 0 0 20px 0;
+    margin-left: 14px;
+}
+.slider-btn1:after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: #40afcc;
+    left: 0;
+    top: 0;
+    border-radius: 0 0 0 20px;
+    transform-origin: left;
+    transition:width 0.5s ease;
+    z-index: -1;
+   
+}
+.slider-btn1:hover::after{
+    width: 100%;
+}
+
+.slider-btn1:hover, .slider-btn2:hover{
+    color: #fff;
+    border: 1px solid #40afcc;
+    /*! font-weight: 600; */ 
+}
+.slider-btn2:after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: #40afcc;
+    right: 0;
+    top: 0;
+    border-radius: 0 0 20px 0;
+    transform-origin: right;
+    transition:width 0.5s ease;
+    z-index: -1;
+}
+.slider-btn2:hover::after{
+    width: 100%;
+}
+.header-social {
+    top: 32%;
+    position: absolute;
+    right: 118px;
+}
+.header-social i {
+    color: #929292;
+    background: #f5f5f5;
+    border: 1px solid #929292;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    transition: .3s ease;
+}
+.header-social i:hover {
+    color: #fff;
+    background: #40afcc;
+    border: 1px solid #40afcc;
+    
+}
+.social-title {
+    transform: rotate(-90deg);
+    color: #f5f5f5;
+    margin-top: 40px;
+    font-size: 14px;
+    margin-left: -18px;
+}
+ .carousel-control-next{
+    width: 32px;
+    opacity: 1;
+    top: 46%;
+    bottom: 50%;
+    font-size: 14px;
+    left: 0;
+    transition: .4s ease;
+    color: #858889;
+}
+.carousel-control-prev{
+    width: 32px;
+    opacity: 1;
+    top: 50%;
+    bottom: 46%;
+    font-size: 14px;
+    transition: .4s ease;
+    color: #858889;
+}
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    background: #272a2b;
+    padding-left: 10px;
+    padding-right: 0px;
+    width: 50px;
+
+    color: #fff;
+}
+/*---------------------
+	End Header Style
+----------------------*/
+#about-me {
+    padding: 195px 0 70px 0;
+}
+.about-me-image img {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 4px 17px 35px -22px #b6b4b4;
+    border-radius: 0px 0px 60px 0px;
+}
+.section-title h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 70px;
+    color: #40afcc;
+    position: relative;
+}
+.about-sec-title h3::after {
+    content: "Welcome";
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    color: #f5f5f5;
+    z-index: -4;
+    font-size: 100px;
+    font-family: 'Impact';
+    top: 20px;
+    right: 0;
+}
+.about-content {
+    margin-top: 95px;
+}
+.about-content p {
+    font-size: 16px;
+    color: #242424;
+    font-weight: 300;
+}
+.about-content-line {
+    margin-top: 24px;
+}
+/*---------------------
+	End About Style
+----------------------*/
+#skills {
+    padding: 130px 0 70px 0;
+}
+.skilles-sec-title h3::after {
+    content: "MY EXPERTISE AREAS";
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    color: #f5f5f5;
+    z-index: -10;
+    font-size: 98px;
+    font-family: 'Impact';
+    top: 20px;
+    right: 0;
+}
+.skilled-title h4 {
+    text-align: center;
+    margin-top: 129px;
+    margin-bottom: 43px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    color: #40afcc;
+}
+.backend-title h4{
+    margin-top: 92px;
+}
+.html-skilled {
+    background: #f1662a;
+    height: 160px;
+    position: relative;
+}
+.css-skilled {
+    background: #33a9dc;
+    height: 160px;
+    position: relative;
+}
+.js-skilled {
+    background: #323330;
+    height: 160px;
+    position: relative;
+}
+.resize-skilled {
+    background: #9f0114;
+    height: 160px;
+    position: relative;
+}
+.html-skilled img, .css-skilled img, .js-skilled img, .resize-skilled img {
+    width: 35%;
+}
+.skilled-overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #323330de;
+}
+.overlay-container:hover .skilled-overlay {
+  opacity: 1;
+}
+.overlay-container h4 {
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 5%;
+    font-weight: 700;
+}
+img.hover-mouse {
+    width: 7%;
+    right: 5px;
+    position: absolute;
+    bottom: 5px;
+}
+.php-skilled {
+    background: #222531;
+    height: 160px;
+    position: relative;
+}
+.python-skilled {
+    background: #222531;
+    height: 160px;
+    position: relative;
+    border: 5px solid;
+  	border-image-source: linear-gradient(200deg, rgb(255,216,73), rgb(57,113,158));
+  	border-image-slice: 1;
+}
+.database-skilled {
+    background: #f0db4f;
+    height: 160px;
+    position: relative;
+}
+.visualisation-skilled {
+    background: #40afcc;
+    height: 160px;
+    position: relative;
+}
+.bg-yollow {
+    background: #e5d24dcf;
+}
+.backend h4{
+	color: #222531;
+}
+.digital-marketing {
+    text-align: center;
+    padding: 30px 0px;
+}
+.digital-marketing img {
+    width: 20%;
+}
+.digital-marketing h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.digital-marketing .skilled-overlay h4 {
+    color: #fff;
+    margin-top: 10px;
+}
+.seo-skilled {
+    background: #323330;
+    height: 160px;
+    position: relative;
+}
+.campaing-skilled {
+    background: #b83b5e;
+    height: 160px;
+    position: relative;
+}
+.social-skilled {
+    background: #3d5db2;
+    height: 160px;
+    position: relative;
+}
+.graphic-skilled {
+    background: #39065a;
+    height: 160px;
+    position: relative;
+}
+.graphic-bg{
+	background: #39065ad9;
+}
+/*---------------------
+	End Skilled Style
+----------------------*/
+.resume-sec-title h3::after {
+    content: "MY AWESOME STORY";
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    color: #f5f5f5;
+    z-index: -10;
+    font-size: 100px;
+    font-family: 'Impact';
+    top: 20px;
+    right: 0;
+}
+#resume {
+    padding: 111px 0 60px 0;
+}
+.education-sec {
+    margin-top: 180px;
+    position: relative;
+    cursor: pointer;
+}
+.education-sec h4 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-weight: 700;
+    margin-bottom: 75px;
+}
+.resume-item {
+    margin-top: 40px;
+    position: relative;
+    transition: .3s ease;
+    padding: 0 0 30px 0;
+}
+.resume-item::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #40afcc;
+    left: -11px;
+    top: -5px;
+    border-radius: 100%;
+}
+.education-sec:hover .resume-item::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    left: -11px;
+    top: -5px;
+    border-radius: 100%;
+    z-index: 100;
+    box-shadow: 0px 0px 6px 2px #40afcc;
+    transition: .3s ease;
+    border: 2px solid #40afcc;
+}
+.resume-item div {
+    transition: .3s ease;
+    padding: 0 29px 30px;
+    height: 270px;
+}
+.resume-item:hover {
+    padding: 0px 6px 30px 40px;
+}
+.education-sec:hover h3, .education-sec:hover span{
+    color: #40afcc;
+
+}
+.education-sec:hover .resume-item div{
+    background: url(../images/resume_hover.png) no-repeat center center;
+    background-size: cover;
+}
+.resume-item span {
+    font-size: 22px;
+    color: #242424;
+    font-weight: 400;
+    border: 1px solid;
+    padding: 5px 6px;
+    border-radius: 0 0 15px 0;
+}
+.resume-item h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #242424;
+    font-weight: 700;
+    margin-top: 18px;
+}
+.resume-item h5 {
+    color: #242424;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 13px;
+}
+.resume-item p {
+    font-size: 16px;
+    color: #242424;
+    font-weight: 300;
+    margin-top: 34px;
+}
+.oxford-university {
+    margin-top: -40px;
+}
+.glamorgan-university {
+    margin-top: -40px;
+}
+.code-institute{
+	cursor: pointer;
+}
+.code-institute::after, .oxford-university::after, .glamorgan-university::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 101%;
+    background: #40afcc;
+    top: 0;
+    left: -3px;
+}
+.works-sec-title h3::after {
+    content: "LETEST PORTFOLIO";
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    color: #f5f5f5;
+    z-index: -10;
+    font-size: 100px;
+    font-family: 'Impact';
+    top: 20px;
+    right: 0;
+}
+/*---------------------
+	End Resume Style
+----------------------*/
+#works {
+    padding: 130px 0 50px 0;
+}
+.my-mix-btn {
+    text-align: center;
+    margin-top: 135px;
+    margin-bottom: 57px;
+}
+.mymix-item img {
+    width: 100%;
+    height: 100%;
+}
+.mymix-item {
+    margin-bottom: 20px;
+}
+.my-mix-btn button {
+    background: transparent;
+    border: none;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+}
+.my-mix-btn .mixitup-control-active {
+    border: 2px solid #40afcc;
+    padding: 1px 19px;
+    border-radius: 0 0 15px 0;
+    color: #40afcc;
+    font-weight: 600;
+}
+.my-mix-btn .mixitup-control-active:focus {
+    outline: 0px;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+
+/*---------------------
+    End Work Style
+----------------------*/
+#contact {
+    padding: 115px 0 100px 0;
+}
+.available-title {
+    background: url(../images/quection_bg.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 135px;
+}
+
+.available-title h3 {
+    color: #fff;
+    text-transform: uppercase;
+    left: 98px;
+    margin-top: auto;
+    font-weight: 400;
+    font-size: 50px;
+    float: left;
+    padding: 48px 75px;
+    margin-bottom: 0;
+}
+.available-title h3 span {
+    font-weight: 700;
+}
+span.quection-badge {
+    margin-right: 60px;
+    background: #fff;
+    padding: 10px 30px;
+    margin-top: 80px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #40afcc;
+    float: right;
+    border-radius: 0 0 25px 0;
+    transition: .3s ease;
+}
+span.quection-badge:hover {
+    box-shadow: 0px 0px 11px 1px #fff;
+}
+.contactform-margin {
+    margin-top: 140px;
+}
+.contact-sec-title h3::after {
+    content: "DROP ME A LINE";
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    color: #f5f5f5;
+    z-index: -10;
+    font-size: 110px;
+    font-family: 'Impact';
+    top: 20px;
+    right: 0;
+}
+.contact-form input{
+	padding: 15px;
+	width: 100%;
+	border: 1px solid #40afcc;
+	color: #aaaaaa;
+	font-size: 18px;
+	font-weight: 400;
+}
+.input-group input {
+    width: 48%;
+}
+.input-name {
+    margin-right: 21px;
+}
+.input-subject{
+    margin-top: 6px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #40afcc;
+    color: #aaaaaa;
+    font-size: 18px;
+    font-weight: 400;
+}
+input:focus, textarea:focus, select:focus {
+    outline: none;
+  	border: 1px solid #40afcc;
+  	-webkit-box-shadow: none !important;
+  	-moz-box-shadow: none !important;
+  	box-shadow: none !important;
+}
+input::placeholder, textarea::placeholder {
+	color: #aaaaaa;
+	font-size: 18px;
+	font-weight: 400;
+}
+input.contact-submit {
+    width: 50%;
+    float: right;
+    border-radius: 0 0 20px 0;
+    background: #40afcc;
+    border: 0;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 44px;
+    padding: 14px;
+    transition: all .4s;
+    border: 1px solid;
+}
+input.contact-submit:hover{
+color: #40AFCC !important;
+    background: #fff;
+    border: 1px solid ;
+}
+
+.footer-social-margin {
+    margin-top: 100px;
+}
+.footer-social {
+    background: #f1fcff;
+    color: #40afcc;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding: 20px 50px;
+    border-radius: 0 0 40px 0;
+}
+.footer-social h5 {
+    margin-top: 11px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.footer-social-link {
+    text-decoration: none !important;
+}
+.footer-social i {
+    font-size: 60px;
+    margin-right: 25px;
+    float: left;
+}
+/*---------------------
+    End Contact Style
+----------------------*/
+#top-footer {
+    padding: 25px;
+    background: #40afcc;
+}
+.copyright p {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.nav-custom-toggler {
+    color: #fff !important;
+    border-color: #fff !important;
+}

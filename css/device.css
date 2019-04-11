@@ -1,0 +1,579 @@
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+	.carousel-custom-caption h1 {
+	    font-size: 50px;
+	}
+	.carousel-custom-caption p {
+	    font-size: 17px;
+	    margin-top: 10px;
+	    margin-bottom: 20px;
+	}
+	.section-title h3 {
+	    font-size: 55px;
+	}
+	.slider-btn1, .slider-btn2 {
+	    padding: 12px 29px;
+	}
+	.social-title {
+	    display: none;
+	}
+	#about-me {
+	    padding: 100px 0 20px 0;
+	}
+	.about-sec-title h3::after, .skilles-sec-title h3::after, .resume-sec-title h3::after, .works-sec-title h3::after, .contact-sec-title h3::after {
+	    font-size: 100px;
+	    
+	}
+	.about-content {
+	    margin-top: 55px;
+	}
+	.about-content p {
+	    font-size: 15px;
+	}
+	.about-content-line {
+	    margin-top: 0px;
+	}
+	#skills {
+	    padding: 100px 0 20px 0;
+	}
+	.skilled-title h4 {
+	    margin-top: 80px;
+	    margin-bottom: 30px;
+	    font-size: 27px;
+	}
+	.overlay-container h4 {
+	    font-size: 16px;
+	}
+	.backend-title h4 {
+	    margin-top: 60px !important;
+	}
+	#resume {
+	    padding: 100px 0 20px 0;
+	}
+	.education-sec {
+	    margin-top: 120px;
+	}
+	.resume-item div {
+	    padding: 0 20px 30px;
+	}
+	.resume-item:hover {
+	    padding: 0px 0px 30px 15px;
+	}
+	#works {
+	    padding: 100px 0 20px 0;
+	}
+	.my-mix-btn {
+	    margin-top: 100px;
+	    margin-bottom: 40px;
+	}
+	.my-mix-btn button {
+	    font-size: 20px;
+	}
+	#contact {
+	    padding: 100px 0 80px 0;
+	}
+	.available-title h3 {
+	    font-size: 40px;
+	}
+	.available-title h3 {
+	    font-size: 40px;
+	    padding: 44px 60px;
+	}
+	span.quection-badge {
+	    margin-top: 60px;
+	    font-size: 22px;
+	}
+	.available-title {
+	    margin-bottom: 60px;
+	}
+	.input-name {
+	    margin-right: 18px;
+	}
+	.footer-social h5 {
+	    font-size: 25px;
+	}
+	.footer-social i {
+	    font-size: 50px;
+	    margin-right: 15px;
+	}
+	.footer-social-margin {
+	    margin-top: 80px;
+	}
+	#top-footer {
+	    padding: 30px;
+	}
+	.copyright p {
+	    margin-bottom: 0;
+	    font-size: 20px;
+	    color: #fff;
+	    font-weight: 400;
+	}
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	nav#mainNav {
+	    padding: 15px !important;
+	}
+	nav#mainNav.navbar-shrink {
+	    padding: 15px !important;
+	    background: #323330;
+	}
+	.carousel-custom-caption h1 {
+	    font-size: 42px;
+	}
+	.carousel-custom-caption p {
+	    font-size: 15px;
+	    margin-top: 10px;
+	    margin-bottom: 20px;
+	}
+	.slider-btn1, .slider-btn2 {
+	    padding: 8px 25px;
+	}
+	.section-title h3 {
+	    font-size: 45px;
+	}
+	#about-me {
+	    padding: 80px 0 20px 0;
+	}
+	.about-sec-title h3::after, .skilles-sec-title h3::after, .resume-sec-title h3::after, .works-sec-title h3::after, .contact-sec-title h3::after {
+	    font-size: 80px;
+	}
+	.about-content {
+	    margin-top: 45px;
+	}
+	.about-content p {
+	    font-size: 14px;
+	}
+	#skills {
+	    padding: 80px 0 20px 0;
+	}
+	.skilled-title h4 {
+	    margin-top: 50px;
+	    margin-bottom: 30px;
+	}
+	.overlay-container h4 {
+	    font-size: 18px;
+	    padding: 16px 0px;
+	    top: 15%;
+	    left: 5%;
+	    right: 5%;
+	}
+	img.hover-mouse {
+	    width: 9%;
+	}
+	.backend-title h4 {
+	    margin-top: 50px !important;
+	}
+	img.skilled-image {
+	    width: 50%;
+	}
+	.marketing-image {
+	    width: 25% !important;
+	}
+	.resume-item h3 {
+	    font-size: 20px;
+	}
+	.resume-item span {
+	    font-size: 18px;
+	}
+	.resume-item h5 {
+	    font-size: 17px;
+	}
+	.resume-item p {
+	    font-size: 15px;
+	    margin-top: 20px;
+	}
+	.resume-item div {
+	    padding: 0 15px 10px;
+	}
+	#works {
+	    padding: 80px 0 20px 0;
+	}
+	.my-mix-btn button {
+	    font-size: 18px;
+	}
+	.available-title h3 {
+	    font-size: 29px;
+	    padding: 34px 41px;
+	}
+	span.quection-badge {
+	    margin-top: 45px;
+	    font-size: 18px;
+	}
+	.available-title {
+	    margin-bottom: 20px;
+	}
+	.contactform-margin {
+	    margin-top: 80px;
+	}
+	.input-name {
+	    margin-right: 13px;
+	}
+	input.contact-submit {
+	    font-size: 18px;
+	    margin-top: 30px;
+	}
+	.footer-social i {
+	    font-size: 40px;
+	    margin-right: 10px;
+	}
+	.footer-social h5 {
+	    font-size: 16px;
+	}
+	.footer-social {
+	    padding: 20px 40px;
+	}
+	#top-footer {
+	    padding: 20px;
+	}
+	.copyright p {
+	    margin-bottom: 0;
+	    font-size: 18px;
+	    color: #fff;
+	    font-weight: 400;
+	}
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+	.carousel-custom-caption h1 {
+	    font-size: 30px;
+	}
+	.slider-btn1, .slider-btn2 {
+	    display: none;
+	}
+	.carousel-custom-caption p {
+    	font-size: 13px;
+	}
+	.header-social li {
+	    float: right;
+	    margin-left: 10px;
+	}
+	.header-social {
+	    top: 190px;
+	    position: absolute;
+	    right: 38%;
+	    transform: translateX(0%);
+	}
+	.section-title.about-sec-title {
+	    margin-top: 50px;
+	}
+	.section-title h3 {
+	    font-size: 35px;
+	}
+	.about-sec-title h3::after, .skilles-sec-title h3::after, .resume-sec-title h3::after, .works-sec-title h3::after, .contact-sec-title h3::after {
+	    font-size: 60px;
+	    top: -3px;
+	}
+	#about-me {
+	    padding: 50px 0 20px 0;
+	}
+	.about-content p {
+	    font-size: 14px;
+	}
+	#skills {
+	    padding: 50px 0 20px 0;
+	}
+	.skilled-title h4 {
+	    margin-top: 40px;
+	    margin-bottom: 20px;
+	    font-size: 25px;
+	}
+	img.skilled-image {
+	    width: 30%;
+	}
+	.html-skilled, .css-skilled, .php-skilled, .python-skilled, .seo-skilled, .campaing-skilled{
+	    margin-bottom: 25px;
+	}
+	.overlay-container h4 {
+	    font-size: 18px;
+	    top: 17%;
+	    left: 16%;
+	    right: 16%;
+	}
+	.social-sm-margin{
+		margin: 0 auto;
+	}
+	#resume {
+	    padding: 50px 0 20px 0;
+	}
+	.education-sec {
+	    margin-top: 60px;
+	}
+	.education-sec h4 {
+	    font-size: 20px;
+	    margin-bottom: 40px;
+	}
+	.resume-item span {
+	    font-size: 16px;
+	}
+	.resume-item h3 {
+	    font-size: 19px;
+	}
+	.resume-item div {
+	    padding: 0 40px 10px;
+	}
+	#works {
+	    padding: 50px 0 20px 0;
+	}
+	.my-mix-btn button {
+	    font-size: 16px;
+	}
+	.my-mix-btn {
+	    margin-top: 60px;
+	    margin-bottom: 30px;
+	}
+	#contact {
+	    padding: 50px 0 50px 0;
+	}
+	.available-title h3 {
+	    font-size: 22px;
+	    padding: 34px 28px;
+	}
+	span.quection-badge {
+	    margin-top: -80px;
+	    font-size: 16px;
+	    margin-right: 15px;
+	}
+	.contact-form input {
+	    padding: 10px;
+	    font-size: 16px;
+	}
+	.input-name {
+	    margin-right: 20px;
+	}
+	input::placeholder, textarea::placeholder {
+		color: #aaaaaa;
+		font-size: 16px;
+		font-weight: 400;
+	}
+	input.contact-submit {
+	    font-size: 18px !important;
+	    margin-top: 10px;
+	    margin-bottom: 30px;
+	    width: 100%;
+	}
+	.footer-social-margin {
+	    margin-top: 50px;
+	}
+	.footer-social {
+	    padding: 10px 20px;
+	    text-align: center;
+	}
+	.footer-social i {
+	    font-size: 30px;
+	    margin-right: 5px;
+	    line-height: 45px;
+	}
+	.copyright p {
+	    margin-bottom: 0;
+	    font-size: 16px;
+	    color: #fff;
+	    font-weight: 400;
+	}
+	#top-footer {
+	    padding: 15px;
+	}
+	.carousel-control-next:hover, .carousel-control-prev:hover {
+	    padding-left: 10px;
+	    padding-right: 0px;
+	    width: 30px;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	}
+	.carousel-control-prev, .carousel-control-next {
+	    width: 15px;
+	    padding-left: 10px;
+	    padding-right: 0px;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	}
+	.carousel-control-next {
+	    top: 42%;
+	}
+	.carousel-control-prev {
+	    top: 53%;
+	}
+	a.navbar-brand img {
+	    width: 90%;
+	}
+	.navbar-collapse.collapse.show {
+	    background: #323330;
+	}
+	.navbar-collapse.collapsing {
+	    background: #323330;
+	}
+	.navbar-nav li {
+	    text-align: center;
+	}
+	.navbar-nav a {
+	    font-size: 14px;
+	}
+	.nav-item .active::after {
+	    height: 6px;
+	}
+	.nav-item .active {
+	    padding: 10px 0px;
+	}
+	.navbar-nav li a:hover {
+	    font-weight: 300;
+	    background: #40afcc4a;
+	}
+	.nav-item a:before {
+	    height: 6px;
+	}
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.carousel-custom-caption h1 {
+	    font-size: 25px;
+	}
+	.carousel-custom-caption p {
+	    font-size: 7px;
+	    display: none;
+	}
+	.header-social {
+	    top: 140px;
+	    right: 34%;
+	}
+	#about-me {
+	    padding: 40px 0 20px 0;
+	}
+	.about-sec-title h3::after, .skilles-sec-title h3::after, .resume-sec-title h3::after, .works-sec-title h3::after, .contact-sec-title h3::after {
+	    font-size: 48px;
+	    top: 0px;
+	}
+	.section-title h3 {
+	    font-size: 30px;
+	}
+	#skills {
+	    padding: 30px 0 20px 0;
+	}
+	.skilled-title h4 {
+	    margin-top: 30px;
+	    margin-bottom: 20px;
+	    font-size: 20px;
+	}
+	.skilled-image {
+	    width: 17% !important;
+	}
+	.overlay-container h4 {
+    	font-size: 16px;
+	    top: 25%;
+	}
+	img.hover-mouse {
+	    width: 6% !important;
+	}
+	.html-skilled, .css-skilled, .php-skilled, .python-skilled, .seo-skilled, .campaing-skilled, .js-skilled, .database-skilled{
+	    margin-bottom: 15px;
+	}
+	.php-skilled .skilled-image, .visualisation-skilled .skilled-image {
+	    width: 35% !important;
+	}
+	.python-skilled .skilled-image, .database-skilled .skilled-image {
+	    width: 25% !important;
+	}
+	.digital-marketing .skilled-overlay h4 {
+	    font-size: 15px;
+	    margin-top: 0px;
+	}
+	#resume {
+	    padding: 30px 0 20px 0;
+	}
+	.education-sec {
+	    margin-top: 40px;
+	}
+	.education-sec h4 {
+	    font-size: 18px;
+	    margin-bottom: 30px;
+	}
+	.resume-item span {
+	    font-size: 14px;
+	}
+	.resume-item h5 {
+	    font-size: 16px;
+	}
+	.resume-item p {
+    	font-size: 14px;
+	    margin-top: 20px;
+	}
+	.education-sec:hover .resume-item div {
+	    background: url(../images/resume_hover.png) no-repeat center center;
+	    background-size: cover;
+	    height: 210px;
+	}
+	.resume-item {
+	    margin-top: 40px;
+	    position: relative;
+	    transition: .3s ease;
+	    padding: 0 0 0px 0;
+	}
+	.resume-item div {
+	    transition: .3s ease;
+	    padding: 0 29px 30px;
+	    height: 240px;
+	}
+	#works {
+	    padding: 30px 0 20px 0;
+	}
+	.my-mix-btn button {
+	    margin-left: 5px;
+	    font-size: 15px;
+	}
+	.my-mix-btn .mixitup-control-active {
+	    padding: 1px 10px;
+	}
+	.my-mix-btn {
+	    margin-top: 40px;
+	    margin-bottom: 20px;
+	}
+	#contact {
+	    padding: 30px 0 50px 0;
+	}
+	.available-title h3 {
+	    font-size: 17px;
+	    padding: 20px 20px;
+	}
+	span.quection-badge {
+	    padding: 9px 26px;
+	    font-size: 13px;
+	    margin-top: -58px;
+	}
+	.contact-sec-title {
+	    margin-top: -35px;
+	}
+	.input-group input {
+	    width: 100%;
+	}
+	.input-name {
+	    margin-right: 0px;
+	    margin-bottom: 20px;
+	}
+	input::placeholder, textarea::placeholder {
+		font-size: 14px;
+		font-weight: 400;
+	}
+	.input-subject {
+	    margin-top: -5px;
+	}
+	textarea {
+	    margin-top: 20px;
+	    font-size: 14px;
+	}
+	.contactform-margin {
+	    margin-top: 50px;
+	}
+	.footer-social h5 {
+	    font-size: 16px;
+	    margin-top: 0;
+	    margin-bottom: 5px;
+	}
+}
+
+
+
+
+
